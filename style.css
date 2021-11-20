@@ -1,15 +1,20 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
-
 body {
-  background-color: #1F2937;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: 48px;
   font-weight: 800;
   color: #F9FAF8;
-  
+}
+
+h2 {
+  color: #1F2937;
+  font-weight: 900;
+  font-size: 36px;
 }
 
 .text-white {
@@ -24,7 +29,8 @@ h1 {
   display: flex;
   align-items: center;
   width: 100%;
-  
+  background-color: #1F2937;
+
 }
 
 .logo {
@@ -52,7 +58,7 @@ h1 {
   padding: 0 16px;
 }
 
-button {
+button.top {
   background-color: #3882F6;
   color: #FFF;
   border: none;
@@ -60,6 +66,22 @@ button {
   border-radius: 10px;
   font-size: 16px;
   font-weight: 600;
+}
+button.bottom {
+  background-color: #3882F6;
+  border-color: #FFF;
+  border-width: 2px;
+  border-style: solid;
+  border-radius:  10px;
+  padding-top: 0px;
+  height: 36px;
+  width: 128px;
+  display: inline-block;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top:15px;
+  margin-left: auto;
 }
 
 .text-secondary {
@@ -71,7 +93,8 @@ button {
   display: flex;
   align-items: center;
   width: 100%;
-  margin: 100px 0;
+  padding: 100px 0;
+  background-color: #1F2937;
 }
 .hero-text {
   margin-left: 200px;
@@ -91,4 +114,77 @@ button {
 .info {
   background-color: #FFF;
   width:100%;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0 50px 0;
+}
+
+.info-col {
+  width: 100px;
+  padding: 0 60px 0 30px;
+}
+
+.cube {
+  border-style:solid;
+  border-width: 4px;
+  border-color: #3882F6;
+  width: 150px;
+  height: 150px;
+}
+
+.testimonial {
+  background-color: #E5E7EB;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.testimonial p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  padding: 100px 0 80px ;
+  color: #1F2937;
+}
+
+.calltoaction {
+  width:100%;
+  display: flex;
+  padding: 100px 0 100px 0;
+  justify-content: center;
+}
+
+.card {
+  background-color: #3882F6;
+  display: flex;
+  padding: 25px 80px;
+  width: 65%;
+  border-style:none;
+  border-radius:10px;
+}
+
+.card-info {
+
+}
+
+.card-info h3 {
+  font-size: 25px;
+  line-height: 0px;
+  padding-bottom: 0px;
+  color: #FFF;
+}
+.card-info p {
+  line-height: 0px;
+  padding-bottom: 0px;
+  color: #E5E7EB;
+  font-weight: 200;
+}
+
+footer {
+  background-color: #1F2937;
+  width: 100%;
+  padding: 25px 0;
 }
